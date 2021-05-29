@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F6E01A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Fragment #1"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/app_name"/>
+
+    <Button
+        android:id="@+id/btnActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer activity"/>
+
+</LinearLayout>
